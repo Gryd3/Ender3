@@ -1,0 +1,17 @@
+==== Marlin 2.1.2 - Gryd3 v1.0.2 - 2023-05-22 ====
+  - Adjust Machine limits for soft-limit switch.
+  - Adjust probe margin to match.
+  - Hardcode some machine specific defaults (Speeds, JD, and LinearAdv K-Value)
+
+==== Marlin 2.1.2 - Gryd3 v1.0.2 - 2023-05-08 ====
+  - Machine Conversion to Direct Drive
+  - Correct Bed Size
+  - Enable Runtime Skew Correction : M852
+
+==== Marlin 2.1.2 - Gryd3 v1.0.1 - 2023-04-28 ====
+  Acceleration Changes (Minor)
+  
+==== Marlin 2.1.2 - Gryd3 v1.0.0 - 2023-04-28 ====
+  Vanilla Marlin with configuration copied from Marlin 2.0.9.5 - Gryd3 v2.0.2
+  Most changes are additions of beneficial features. 
+  Upgrade from LTS to Marlin 2.1.2 to allow LinearAdvance with TMC 2208. (Smoother pulse train for Extruder)
